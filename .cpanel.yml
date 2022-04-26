@@ -1,0 +1,8 @@
+---
+deployment: 
+task:
+
+-export DEPLOYPATH=/home/uxxxxx/public_html/
+-bon/cp index.html
+-bin/cp sytile.css $DEPLOYPATH
+-bin/cp -R img $DEPLOYPATH
